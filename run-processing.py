@@ -56,4 +56,4 @@ Z_dfs = inital(rootZ, naming='_final', isprefix=False, saveprefix='xyz', savedir
 print('abc + xyz ready!\nStarting master merge...\n')
 # this is going to be a nightmare
 master_savename = 'master_count_inx+pb'
-master_dfs = join_dfs(pb_dfs + inx_dfs, master_savename, desktop, returndfs=True)
+master_dfs = join_dfs(A_dfs + Z_dfs, master_savename, desktop, returndfs=True)
