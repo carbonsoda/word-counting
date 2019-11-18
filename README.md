@@ -3,8 +3,8 @@
 ## Word Processing
 
 #### Given two directories of transcripts:
-1.This counts up the occurance of each word, across each directory.
-2.For each directory, a dataframe is generated and saved as a `.csv`
+1. This counts up the occurance of each word, across each directory.
+2. For each directory, a dataframe is generated and saved as a `.csv`
 
 Then it will combine the two dataframes into a larger dataframe (work in progress).
 
