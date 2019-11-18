@@ -12,9 +12,9 @@ def process(root, naming, isprefix):
     all_dfs = []
     issues = defaultdict(lambda: [])
 
-    name_idx = 1
+    name_idx = 0
     if isprefix:
-        name_idx = 0
+        name_idx = 1
 
     for subjectfile in filefinder(root, naming, isprefix):
         wordcount = wordcounting(subjectfile)
